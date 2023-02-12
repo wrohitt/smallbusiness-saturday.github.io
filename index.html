@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Business - Saturday</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2b496ef8fc.js"crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/img/pngfind.com-saturday-png-2694687.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Business Consulting Services</p>
+                <h1>Small Business<span><br>SATURDAY...</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!------------------About----------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img/tyler-franta-iusJ25iYu1c-unsplash.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>We are small business located in the heart of the city. Our goal is to provide exeptional services to our clients
+                        and help them achieve their goals. With years of experience in the industry, we have built a reputation for 
+                        delivering high-quality work and excellent customer service. Lorem ipsum dolor sit amet, consectetur adipisicing 
+                        elit. Placeat asperiores minus laudantium quo accusantium ducimus? Autem iste cum sint consequuntur mollitia modi 
+                        necessitatibus sed. Assumenda, explicabo? Rerum harum mollitia facilis. Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. In, labore reiciendis explicabo sit quos, placeat rerum esse quisquam ad voluptate dolores minus 
+                        ratione tenetur sed, libero omnis inventore pariatur. Veniam. Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Harum, ad praesentium. Debitis commodi, dolore doloremque, vitae ratione exercitationem ex qui suscipit iste 
+                        tempora facilis sunt repudiandae! Mollitia dolore exercitationem nulla.
+                    </p>
+                </div>
+            </div>
+            <a href="Link your youtube" class="btn">Explore us</a>
+        </div>
+    </div>
+
+    <!----------------Servicess---------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Our Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Business Strategy</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quasi autem hic in ducimus maxime tempora eum 
+                        doloribus, ut inventore eaque, expedita commodi dignissimos aliquid provident. Hic perferendis commodi quae!
+                    </p>
+                        <a href="https://en.wikipedia.org/wiki/Strategic_management">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Experience Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ad exercitationem accusamus suscipit, minima 
+                        minus. Totam aliquam ex nostrum impedit, tempore, facilis inventore sed itaque molestias alias quibusdam facere id.
+                    </p>
+                        <a href="https://en.wikipedia.org/wiki/User_experience_design">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>People and Change</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptatem, ducimus repellendus perferendis, ipsa 
+                        quam consequuntur aperiam dolores optio nesciunt sunt, dolore quis! Quia ducimus, id dolores culpa rerum tempore!
+                    </p>
+                        <a href="https://en.wikipedia.org/wiki/People_and_change">Learn more</a>
+                </div>
+            </div>
+            <a href="Connect more services" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!----------------Contact-------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p><i class="fas fa-paper-plane"></i>smallbusiness.satuday@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+91 0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/in"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://facebook/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                    </div>
+                    <a href="Upload Comapanies terms and conditions pdf/docx" download class="btn btn2">Terms and Conditions</a>   <!---File Downloadble---->
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright & Copy; Made with Small Business Saturday</p>
+        </div>
+    </div>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
